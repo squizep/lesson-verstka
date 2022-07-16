@@ -116,8 +116,60 @@
 	}
 }
 
+
 .order {
-	border-color: #ecf3f8;
+	padding: 105px 0 102px;
+	background-color: #ecf3f8;
 	color: #201B2D;
+  &__title {
+		text-align: center;
+		font-size: 30px;
+		line-height: 25px;
+		letter-spacing: 0.6px;
+		margin-bottom: 70px;
+		color: #201B2D;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: bold;
+	}
+	
+  &__group {
+		text-align: center;
+	}
+  &__item--link {
+		border: 1px solid #BBBBBB;
+		padding: 11px 0 12px 24px;
+		margin-bottom: 15px;
+		width: 343px;
+	placeholder {
+		letter-spacing: 0.3px;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 25px;
+		font-family: 'Ubuntu';
+		color: rgba(32, 27, 45, 0.55);
+		}
+	}
+
+  &__button {
+		display: inline-block;
+		background-color: #FFD429;
+		padding: 17px 26px 14px 28px;
+	}
+  &__button--link {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 900;
+		font-size: 15px;
+		line-height: 25px;
+		color: #2E2A1B;
+		letter-spacing: 0.3px;
+	}
 }
 
+.footer {
+	background-color: #164d7a;
+	&__text {
+		text-align: center;
+		color: white;
+		padding: 57px 0 61px;
+	}
+}
