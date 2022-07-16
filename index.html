@@ -5,37 +5,75 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/main.css">
-	<title>Document</title>
+	<title>Travel</title>
 </head>
 <body>
-	<header>
-		<img src="./img/1650998594_wpdmn_logo.jpeg" alt="404">
-		<h1>Вступление</h1>
-		<p class="text">Это текст <br> моего второго домашнего <br> задания</p>
-		<p>Не, верится, но мне уже удается писать свой <span>первый код на HTML.</span></p>
-	</header>
+<header class="header">
+	<div class="container">
+		<div class="header__logo">
+			<img src="./img/logo.png" alt="404">
+		</div>
+		<div class="header__row">
+			<div class="header__about">
+				<div class="header__title">
+					<h1>С помощью верстки <br> я создам ту жизнь, о которой <span>мечтаю!</span></h1>
+				</div>
+				<div class="header__text">
+					<p>Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!</p>
+				</div>
+				<div class="header__button">
+					<a class="header__button--link" href="#!">Двигаться к мечте!</a>
+				</div>
+			</div>
+			<div class="header__img">
+				<img class="header__img--link" src="./img/map.png" alt="404">
+			</div>
+		</div>
+	</div>
+</header>
 
-	<section>
-		<h2 class="text2">Что дальше?</h2>
-		<p>Дальше я буду получать вс больше и больше опыта в разработке сайтов, чтобы достичь новых вершин! <a href="https://www.google.com/" target="_blank">Прочитать больше в Google</a></p>
-		<h2 class="text3">Что я буду уметь?</h2>
-		<form action="#!">
-			<input type="text" placeholder="Имя">
-			<input type="email" placeholder="E-mail">
-			<input type="tel" placeholder="Телефон">
-			<button type="submit">Отправить форму</button>
-		</section>
+<section class="future">
+	<div class="container">
+		<div class="future__title"><h2>Что меня ждет впереди</h2></div>
+		<div class="future__list">
+			<div class="future__item">
+				<div class="future__item--img">
+					<img src="./img/time.jpg" alt="">
+				</div>
+				<div class="future__item--title"><h2>Свободное время</h2></div>
+				<div class="future__item--text"><p>Мне нужно свободное время на семью и самое настоящее</p></div>
+			</div>
+			<div class="future__item">
+				<div class="future__item--img">
+					<img src="./img/beach.jpg" alt="">
+				</div>
+				<div class="future__item--title"><h2>Яркие путешествия</h2></div>
+				<div class="future__item--text"><p>Работать откуда угодно - что может быть лучше?</p></div>
+			</div>
+			<div class="future__item">
+				<div class="future__item--img">
+					<img src="./img/roket.jpg" alt="">
+				</div>
+				<div class="future__item--title"><h2>Создание ценности</h2></div>
+				<div class="future__item--text"><p>Нет ничего сильнее, чем жить не просто так, создавая ценность</p></div>
+			</div>
+		</div>
+		
+	</div>
+</section>
 
-	<footer>
-		</form>
-		<P>А также, я научусь создавать списки:</P>
-		<ul>
-			<li>С одним пунктом</li>
-			<li>С несколькими пунктами</li>
-			<li>И даже с тремя отдельными пунктами</li>
-		</ul>
-		<h2 class="text4">Отличное начало!</h2>
-		<a href="https://my.wayup.in/lesson/2726#lesson" target="_blank">Перейти на страницу первого занятия курса</a>
-	</footer>
+<section class="order">
+	<div class="container">
+		<div class="order__title">
+			<h3>Форма заказа билета в будущее</h3>
+		</div>
+		<div class="order__list">
+			<ul>
+				<li><input type="text" placeholder="">Имя</li>
+			</ul>
+		</div>
+		
+	</div>
+</section>
 </body>
 </html>
